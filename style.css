@@ -219,7 +219,7 @@ body {
   background-image: none;
 }
 [data-type="Franz-Kafka-Head"] .content__left {
-  background-image: url("Images/Franz\ Kafka.jpg");
+  background-image: url("Images/Franz-Kafka.jpg");
 }
 .spinner--right [data-type="Franz-Kafka-Head"] .content__left {
   background-image: none;
@@ -246,5 +246,11 @@ body {
   background-image: url("Images/clock.png");
 }
 .spinner--right [data-type="Astronomical-Clock"] .content__left {
+  background-image: none;
+}
+[data-type="Dancing-Tower"] .content__left {
+  background-image: url("Images/dancing-house.png");
+}
+.spinner--right [data-type="Dancing-Tower"] .content__left {
   background-image: none;
 }
